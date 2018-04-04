@@ -1,6 +1,6 @@
 # Exercism GitHook
 
-This is a very simple hook to submit [exercism](exercism.io) challenges
+This is a very simple hook to submit [exercism](http://exercism.io) challenges
 on git commit.
 
 It will process on the [pre-commit](https://git-scm.com/docs/githooks#_pre_commit)
