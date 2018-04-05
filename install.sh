@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Getting exercises directory..."
 
 dir=$(exercism debug 2>/dev/null | grep "Exercises Directory" 2>/dev/null)

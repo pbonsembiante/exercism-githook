@@ -14,11 +14,24 @@ hook provided bit git submitting any exercism challenge individually.
 
 ## Installing
 
-I'll provide some batch/bash scripts to automatically install the hook.
-
 In the meantime, the hook can be installed manually, in a per-repository bases,
 placing the pre-commit.py file in this repo into `.git/hooks` and dropping
 the `.py` extension out of it.
+
+### Unix-like systems
+
+An install script is provided to automatically install the hook in the right place!
+
+```
+git clone https://github.com/pbonsembiante/exercism-githook
+cd exercism-githook
+chmod +x install.sh
+./install.sh
+```
+
+### Windows
+
+I'll provide a similar batch scripts to automatically install the hook soon.
 
 ## Usage
 
